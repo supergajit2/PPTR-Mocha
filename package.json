@@ -1,0 +1,16 @@
+{
+  "name": "pptr-mocha",
+  "version": "1.0.0",
+  "description": "Section 6 Advanced Builder Pattern Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Summer Armitage",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0",
+    "puppeteer": "^7.0.4"
+  }
+}
