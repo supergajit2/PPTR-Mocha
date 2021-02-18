@@ -4,9 +4,9 @@
   "description": "Section 6 Advanced Builder Pattern Framework",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --timeout=30000 ./build/tests/**.js",
-    "clean": "rm -rf build",
-    "build": "babel --preset es2015 -d /build /src"
+    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./build/tests/**.js",
+    "clean": "rmdir /s /q build",
+    "build": "babel --preset es2015 -d build/ src/"
   },
   "author": "Summer Armitage",
   "license": "ISC",
